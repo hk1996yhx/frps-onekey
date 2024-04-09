@@ -541,7 +541,7 @@ pre_install_clang(){
         echo ""
         echo "Press any key to start...or Press Ctrl+c to cancel"
 
-        char=`get_char`
+       # char=`get_char`
         install_program_server_clang
     fi
 }
